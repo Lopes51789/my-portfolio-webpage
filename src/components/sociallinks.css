@@ -1,0 +1,8 @@
+.social-links a img {
+    transition: transform 0.2s ease;
+  }
+  
+  .social-links a:hover img {
+    transform: scale(1.1);
+  }
+  
