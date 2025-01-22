@@ -1,0 +1,21 @@
+.certificate{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.certificate img {
+    width: 600px;
+    height: 400px;
+}
+
+.certificate p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}

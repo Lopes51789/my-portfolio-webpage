@@ -3,8 +3,8 @@ import './projects.css';
 
 function Projects() {
     return (
-        <div className="about">
-            <h1>About</h1>
+        <div className="projects">
+            <h1>Projects</h1>
             <p>I am a dedicated Computer Science graduate
                 with a passion for software development, 
                 data science, and machine learning.

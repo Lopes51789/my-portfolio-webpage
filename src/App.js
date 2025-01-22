@@ -5,6 +5,10 @@ import SocialLinks from './components/toolss/sociallinks/sociallinks.js';
 import profilePic from './components/images/photo1.jpg';
 import backgroundVideo from './components/images/video3.mp4';
 import Subtitles from './components/toolss/subtitles/subtitles.js';
+import About from './components/toolss/about/about.js';
+import Experiences from './components/toolss/experience/experience.js';
+import Projects from './components/toolss/projects/projects.js';
+import Certificates from './components/toolss/certificates/certificates.js';
 
 function App() {
   return (
@@ -16,14 +20,32 @@ function App() {
         </video>
         <div className="content">
           <img className="profile-pic" src={profilePic} alt="Gabriel Lopes Carvalho" />
-          <h1>Gabriel Lopes Carvalho</h1>
+          <h1 className='name'>Gabriel Lopes Carvalho</h1>
           <Subtitles />
+        </div>
+
+        
+
+    </div>
+      <div className="content2">
+        <div className="about">
+          <About />
+        </div>
+        <div className="certificates">
+          <Certificates />
+        </div>
+        <div className="experiences">
+          <Experiences />
+        </div>
+        <div className="projects">
+          <Projects />
         </div>
       </div>
 
-    <div className="footer">
-    <SocialLinks />
-    </div>
+      <div className="footer">
+      <SocialLinks />
+      </div>
+    
     </div>
   );
 }
