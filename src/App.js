@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="hero">
-        <video className="background-video" autoPlay loop muted>
+        <video className="background-video" autoPlay loop muted playbackRate="0.5">
           <source src={backgroundVideo} type="video/mp4" />
         </video>
         <div className="content">
@@ -23,7 +23,6 @@ function App() {
 
     <div className="footer">
     <SocialLinks />
-      <p>&copy; 2023 Gabriel Lopes Carvalho. All rights reserved.</p>
     </div>
     </div>
   );
