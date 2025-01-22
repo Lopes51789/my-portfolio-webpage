@@ -1,5 +1,8 @@
 .subtitles {
     font-size: 2rem;
     font-style: italic;
+    font-weight: bold;
+    font-family: "IBM Plex Mono", monospace;
+    color: black;
 }
 

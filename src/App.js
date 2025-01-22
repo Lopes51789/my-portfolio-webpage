@@ -19,8 +19,12 @@ function App() {
           <h1>Gabriel Lopes Carvalho</h1>
           <Subtitles />
         </div>
-        <SocialLinks />
       </div>
+
+    <div className="footer">
+    <SocialLinks />
+      <p>&copy; 2023 Gabriel Lopes Carvalho. All rights reserved.</p>
+    </div>
     </div>
   );
 }
