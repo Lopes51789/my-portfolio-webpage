@@ -3,7 +3,8 @@ import './App.css';
 import Navbar from './components/toolss/navbar/navbar.js';
 import SocialLinks from './components/toolss/sociallinks/sociallinks.js';
 import profilePic from './components/images/photo1.jpg';
-import backgroundVideo from './components/images/video.mp4';
+import backgroundVideo from './components/images/video3.mp4';
+import Subtitles from './components/toolss/subtitles/subtitles.js';
 
 function App() {
   return (
@@ -16,10 +17,10 @@ function App() {
         <div className="content">
           <img className="profile-pic" src={profilePic} alt="Gabriel Lopes Carvalho" />
           <h1>Gabriel Lopes Carvalho</h1>
-          <p>Software Developer/Data Scientist/Data Analyst</p>
+          <Subtitles />
         </div>
+        <SocialLinks />
       </div>
-      <SocialLinks />
     </div>
   );
 }

@@ -3,7 +3,8 @@
     height: 50px;
     transition: transform 0.2s ease;
     cursor: pointer;
-    
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
   }
   
   .social-links a:hover img {
