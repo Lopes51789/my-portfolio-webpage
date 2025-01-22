@@ -1,7 +1,7 @@
 import React from 'react';
 import './sociallinks.css';
-import GitHubLogo from './src/components/images/github.png';
-import LinkedInLogo from './src/components/images/linkedin.png';
+import GitHubLogo from '../../../components/images/github.png';
+import LinkedInLogo from '../../../components/images/linkedin.png';
 
 function SocialLinks() {
   return (
