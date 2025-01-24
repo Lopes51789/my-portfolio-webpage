@@ -14,33 +14,10 @@ function Certificates() {
                     <table>
                     <tr>
                         <td><img src={CSharp} alt="Intro to C#" /></td>
-                        <td><p>Intro to C#</p></td>
-                    </tr>
-                    </table>
-                </div>
-
-                <div className="certificate">
-                    <table>
-                    <tr>
-                        <td><p>Python DS</p></td>
                         <td><img src={PythonDS} alt="Python Data Structures" /></td>
                     </tr>
-                    </table>
-                </div>
-                
-                <div className="certificate">
-                    <table>
                     <tr>
                         <td><img src={ETL} alt="Using Python to Access Web Data" /></td>
-                        <td><p>ETL using Python and SQL</p></td>
-                    </tr>
-                    </table>
-                </div>
-                
-                <div className="certificate">
-                    <table>
-                    <tr>
-                        <td><p>SQL</p></td>
                         <td><img src={SQL} alt="Using Databases with Python" /></td>
                     </tr>
                     </table>

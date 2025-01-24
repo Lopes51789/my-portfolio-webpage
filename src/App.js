@@ -15,13 +15,16 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="hero">
-        <video className="background-video" autoPlay loop muted playbackRate="0.5">
-          <source src={backgroundVideo} type="video/mp4" />
-        </video>
-        <div className="content">
-          <img className="profile-pic" src={profilePic} alt="Gabriel Lopes Carvalho" />
-          <h1 className='name'>Gabriel Lopes Carvalho</h1>
-          <Subtitles />
+        <div className='intro'>
+          <video className="background-video" autoPlay loop muted playbackRate="0.5">
+            <source src={backgroundVideo} type="video/mp4" />
+          </video>
+          <div className="content">
+            <img className="profile-pic" src={profilePic} alt="Gabriel Lopes Carvalho" />
+            <h1 className='name'>Gabriel Lopes Carvalho</h1>
+            <Subtitles />
+            <SocialLinks />
+          </div>
         </div>
 
         
@@ -31,9 +34,7 @@ function App() {
         <div className="about">
           <About />
         </div>
-        <div className="certificates">
-          <Certificates />
-        </div>
+        
         <div className="experiences">
           <Experiences />
         </div>
@@ -41,9 +42,8 @@ function App() {
           <Projects />
         </div>
       </div>
-
-      <div className="footer">
-      <SocialLinks />
+      <div className="certificates">
+          <Certificates />
       </div>
     
     </div>
