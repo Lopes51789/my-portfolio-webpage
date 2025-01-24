@@ -12,6 +12,8 @@ function Projects() {
                 I excel in problem solving and delivering impactful,
                 innovative solutions in a creative way.
             </p>
+
+            
         </div>
     );
 }

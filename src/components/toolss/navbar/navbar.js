@@ -5,15 +5,12 @@ function Navbar() {
   return (
     <nav className="navbar">
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#certificates">Certificates</a></li>
-        <li><a href="#social-links">Contact</a></li>
+        <li><a href="#section1">About</a></li>
+        <li><a href="#section2">Experience</a></li>
+        <li><a href="#section3">Projects</a></li>
+        <li><a href="#section4">Certificates</a></li>
       </ul>
     </nav>
-
-    
   );
 }
 

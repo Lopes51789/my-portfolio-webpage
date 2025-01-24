@@ -13,19 +13,22 @@ function Certificates() {
                 <div className="certificate">
                     <table>
                     <tr>
-                        <td><img src={CSharp} alt="Intro to C#" /></td>
-                        <td><img src={PythonDS} alt="Python Data Structures" /></td>
+                        <td><a href="https://www.sololearn.com/pt/certificates/CC-B4PPDPKZ" target="_blank" rel="noopener noreferrer"><img src={CSharp} alt="Intro to C#" /></a></td>
+                        <td><a href="https://www.sololearn.com/certificates/CT-U6YD5HI2" target="_blank" rel="noopener noreferrer"><img src={PythonDS} alt="Python Data Structures" /></a></td>
                     </tr>
                     <tr>
                         <td><img src={ETL} alt="Using Python to Access Web Data" /></td>
-                        <td><img src={SQL} alt="Using Databases with Python" /></td>
+                        <td><a href="https://www.sololearn.com/certificates/CT-1NMVW4IA" target="_blank" rel="noopener noreferrer"><img src={SQL} alt="Using Databases with Python" /></a></td>
                     </tr>
                     </table>
                 </div>
             
             </div>
-        </div>
+
+            </div>
     );
+
+            
 }
 
 export default Certificates;

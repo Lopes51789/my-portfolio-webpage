@@ -25,24 +25,22 @@ function App() {
             <Subtitles />
             <SocialLinks />
           </div>
-        </div>
-
-        
+        </div>        
 
     </div>
       <div className="content2">
-        <div className="about">
+        <div className="about" id="section1">
           <About />
         </div>
         
-        <div className="experiences">
+        <div className="experiences" id="section2">
           <Experiences />
         </div>
-        <div className="projects">
+        <div className="projects" id="section3">
           <Projects />
         </div>
       </div>
-      <div className="certificates">
+      <div className="certificates" id="section4">
           <Certificates />
       </div>
     
